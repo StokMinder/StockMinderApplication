@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".check.CheckStock">
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="350dp"
+        android:layout_height="575dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/report_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/add2"
+        android:layout_width="343dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="108dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="Check Stock Items"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/item_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/item_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/item_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/item_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/item_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view12"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/item_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view13"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/item_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view14"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/item_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view15"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/item_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view16"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/item_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view18"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/item_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view19"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/item_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view20"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/item_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view21"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="530dp"
+        android:background="@drawable/item_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view22"
+        android:layout_width="342dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/item_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Item1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="142dp"
+        android:gravity=""
+        android:text="Item 1"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Item2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="172dp"
+        android:gravity=""
+        android:text="Item 2"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Item3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="202dp"
+        android:gravity=""
+        android:text="Item 3"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Item4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="232dp"
+        android:gravity=""
+        android:text="Item 4"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Item5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="262dp"
+        android:gravity=""
+        android:text="Item 5"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Item6"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="292dp"
+        android:gravity=""
+        android:text="Item 6"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Item7"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="322dp"
+        android:gravity=""
+        android:text="Item 7"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Item8"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="352dp"
+        android:gravity=""
+        android:text="Item 8"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Item9"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="382dp"
+        android:gravity=""
+        android:text="Item 9"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Item10"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="412dp"
+        android:gravity=""
+        android:text="Item 10"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Item11"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="442dp"
+        android:gravity=""
+        android:text="Item 11"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Item12"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="472dp"
+        android:gravity=""
+        android:text="Item 12"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Item13"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="502dp"
+        android:gravity=""
+        android:text="Item 13"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Item14"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="532dp"
+        android:gravity=""
+        android:text="Item 14"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Item15"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="562dp"
+        android:gravity=""
+        android:text="Item 15"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/JItem1"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/JItem2"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/JItem3"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/JItem4"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/JItem5"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="260dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/JItem6"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="290dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/JItem7"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="320dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/JItem8"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/JItem9"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/JItem10"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="410dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/JItem11"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="440dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/JItem12"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="470dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/JItem13"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/JItem14"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="530dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/JItem15"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="560dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/total_stock"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="604dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="605dp"
+        android:fontFamily="@font/roboto"
+        android:gravity=""
+        android:text="Inventory Quantity"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <View
+        android:id="@+id/view23"
+        android:layout_width="342dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="595dp"
+        android:background="@drawable/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/Reset"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="684dp"
+        android:background="@drawable/reset_btn"
+        android:onClick="simpan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/button_ripple"
+        android:onClick="btn_back"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="225dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/inter_semibold"
+        android:gravity="center"
+        android:text="Check Stock Items"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

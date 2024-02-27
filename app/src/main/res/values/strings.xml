@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">StockMinderApp</string>
+    <string name="Welcome">Specifically designed to assist you in optimizing inventory management efficiency for UMKMs. Join us on a journey towards smoother operations and greater profits</string>
+    <string name="With">With this app, you can effortlessly elevate inventory management efficiency for your UMKM business. Lets begin optimizing your inventory and achieving sustainable growth</string>
+    <string name="Unlock">Unlock the potential of your UMKM with StockPro. Log in or sign up to streamline your stock management, increase efficiency, and boost profitability.</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_movement">Movement</string>
+    <string name="title_report">Report</string>
+    <string name="title_profile">Profile</string>
+    <string name="default_notification_channel_id">YOUR_CHANNEL_ID</string>
+
+    <string name="isi_1">Menteri Koperasi dan UKM (Menkop UKM) Teten Masduki mengatakan pihaknya masih menyiapkan peraturan pemerintah soal penghapusan kredit macet usaha mikro kecil menengah (UMKM) di perbankan nasional. Penyiapan peraturan pemerintah tersebut dilakukan bersama dengan Kementerian Keuangan</string>
+    <string name="isi_2">Tidak dipungkiri jika UMKM adalah salah satu faktor yang mampu menopang pertumbuhan ekonomi. Karena hal itulah, bank bjb syariah telah menyiapkan skema untuk memperkuat pembiayaan UMKM agar lebih produktif.</string>
+    <string name="isi_3">Wapres Ingin Bursa Saham Tak Lagi Eksklusif ke Perusahaan Besar" selengkapnya https://finance.detik.com/bursa-dan-valas/d-7120059/wapres-ingin-bursa-saham-tak-lagi-eksklusif-ke-perusahaan-besar.</string>
+    <string name="isi_4">Tokopedia-TikTok Beberkan 6 Strategi UMKM Bisa Bersaing di Ranah Digital" selengkapnya https://finance.detik.com/solusiukm/d-7110853/tokopedia-tiktok-beberkan-6-strategi-umkm-bisa-bersaing-di-ranah-digital.</string>
+    <string name="isi_5">Istri calon presiden Ganjar Pranowo, Siti Atikoh Supriyanti, berdialog dengan pelaku usaha mikro, kecil dan menengah (UMKM) di sebuah restoran, Jalan Griya Mutiara Asri, Kalisapu, Slawi, Kabupaten Tegal, Jawa Tengah, Jumat (29/12/2023).</string>
+
+    <string name="help_1">You can access the main menu in the Stock Minder application by following these steps. First, open the Stock Minder app on your device. Then, look for the icon or button typically displaying three horizontal lines, known as the "hamburger" icon. Tap or click this icon to open the main menu of the application. By following these steps, you will be able to access</string>
+    <string name="help_2">The main menu of the Stokminder application typically includes various main options, including adding items/products to the inventory, managing existing inventory, generating reports on stock and sales performance, configuring settings such as preferences and passwords, and accessing help resources such as guides and customer support for assistance with any issues encountered.</string>
+    <string name="help_3">In the Stokminder application, to locate specific menus or features, you can utilize the search function typically situated at either the top or bottom of the main menu interface. Simply input the keyword or name of the feature you require, and the application will present relevant results, facilitating efficient navigation and access to desired functionalities.</string>
+</resources>

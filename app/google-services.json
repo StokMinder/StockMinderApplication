@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "177306838530",
+    "project_id": "stockminderapp-61888",
+    "storage_bucket": "stockminderapp-61888.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177306838530:android:a8828018372b8a230d291b",
+        "android_client_info": {
+          "package_name": "com.example.stockminderapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmz3G3ZB4K_FMGkXCae0sYk3U49ekGsj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

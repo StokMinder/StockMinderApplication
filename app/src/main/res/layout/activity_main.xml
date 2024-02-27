@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="44dp"
+        android:text="Welcome!!!"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/navigation_profile"
+        android:onClick="navigation_profile"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button_ripple"
+        android:src="@drawable/setting_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nama_bisnis"
+        android:onClick="nama_bisnis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="84dp"
+        android:text="widodotas"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/crad_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="156dp"
+        android:text="Join To UMKM Community"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/navigation_join"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="212dp"
+        android:background="@drawable/btn_join"
+        android:onClick="join_comunity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:layout_width="119dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/umkm_iew"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="296dp"
+        android:text="Article"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="350dp"
+        android:layout_height="370dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/report_border"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_article">
+
+        <LinearLayout
+            android:id="@+id/artikel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:paddingEnd="5dp"
+            android:paddingTop="5dp"
+            android:orientation="vertical">
+
+            <!-- CardView 1 -->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/article1"
+                android:onClick="article1"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/card_article"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:id="@+id/gambar_1"
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/art1" />
+
+                <TextView
+                    android:id="@+id/judul_1"
+                    android:layout_width="130dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="left"
+                    android:text="Rencana Penghapusan Kredit Macet UMKM"
+                    android:textColor="@color/black"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/isi_1"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/isi_1"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/black"
+                    android:textSize="8dp"
+                    android:textStyle="normal" />
+
+
+                <ImageView
+                    android:id="@+id/sumber_1"
+                    android:layout_width="50dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="125dp"
+                    android:background="@drawable/liputan6" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/bx_calendar"
+                    android:layout_marginTop="128dp"
+                    android:layout_marginStart="75dp"/>
+
+                <TextView
+                    android:id="@+id/date_article1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8dp"
+                    android:text="01 Sep 2023"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="128dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 2 -->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/article2"
+                android:onClick="article2"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/card_article"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:id="@+id/gambar_2"
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/art2" />
+
+                <TextView
+                    android:id="@+id/judul_2"
+                    android:layout_width="130dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="left"
+                    android:text="Upaya bjb syariah Bikin Sektor UMKM aik Kelas"
+                    android:textColor="@color/black"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/isi_2"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/isi_2"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/black"
+                    android:textSize="8dp"
+                    android:textStyle="normal" />
+
+
+                <ImageView
+                    android:id="@+id/sumber_2"
+                    android:layout_width="50dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="125dp"
+                    android:background="@drawable/detik" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/bx_calendar"
+                    android:layout_marginTop="128dp"
+                    android:layout_marginStart="75dp"/>
+
+                <TextView
+                    android:id="@+id/date_article2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8dp"
+                    android:text="30 Nov 2023"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="128dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 3 -->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/article3"
+                android:onClick="article3"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/card_article"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:id="@+id/gambar_3"
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/art3" />
+
+                <TextView
+                    android:id="@+id/judul_3"
+                    android:layout_width="130dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="left"
+                    android:text="Wapres Ingin Bursa Saham Tak Lagi Ekslusif Ke Perusahaan Besar"
+                    android:textColor="@color/black"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/isi_3"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/isi_3"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/black"
+                    android:textSize="8dp"
+                    android:textStyle="normal" />
+
+
+                <ImageView
+                    android:id="@+id/sumber_3"
+                    android:layout_width="50dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="125dp"
+                    android:background="@drawable/detik" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/bx_calendar"
+                    android:layout_marginTop="128dp"
+                    android:layout_marginStart="75dp"/>
+
+                <TextView
+                    android:id="@+id/date_article3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8dp"
+                    android:text="02 Jan 2024"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="128dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 4 -->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/article4"
+                android:onClick="article4"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/card_article"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:id="@+id/gambar_4"
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/art4" />
+
+                <TextView
+                    android:id="@+id/judul_4"
+                    android:layout_width="130dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="left"
+                    android:text="Tokopedia Beberkan 6 Strategi UMKM isa Bersaing di Era Digital"
+                    android:textColor="@color/black"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/isi_4"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/isi_4"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/black"
+                    android:textSize="8dp"
+                    android:textStyle="normal" />
+
+
+                <ImageView
+                    android:id="@+id/sumber_4"
+                    android:layout_width="50dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="125dp"
+                    android:background="@drawable/detik" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/bx_calendar"
+                    android:layout_marginTop="128dp"
+                    android:layout_marginStart="75dp"/>
+
+                <TextView
+                    android:id="@+id/date_article4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8dp"
+                    android:text="27 Dec 2023"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="128dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <!-- CardView 5 -->
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/article5"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:onClick="article5"
+                android:background="@drawable/card_article"
+                app:cardCornerRadius="8dp">
+
+                <ImageView
+                    android:id="@+id/gambar_5"
+                    android:layout_width="150dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/art5" />
+
+                <TextView
+                    android:id="@+id/judul_5"
+                    android:layout_width="130dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="left"
+                    android:text="Rencana Penghapusan Kredit Macet UMKM"
+                    android:textColor="@color/black"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/isi_5"
+                    android:layout_width="130dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/isi_5"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/black"
+                    android:textSize="8dp"
+                    android:textStyle="normal" />
+
+
+                <ImageView
+                    android:id="@+id/sumber_5"
+                    android:layout_width="50dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="125dp"
+                    android:background="@drawable/liputan6" />
+
+                <View
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/bx_calendar"
+                    android:layout_marginTop="128dp"
+                    android:layout_marginStart="75dp"/>
+
+                <TextView
+                    android:id="@+id/date_article"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="8dp"
+                    android:text="30 Dec 2023"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginTop="128dp"/>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btn_menu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:itemIconTint="@drawable/selector_nav"
+        app:itemTextColor="@drawable/selector_nav"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+    <FrameLayout
+        android:id="@+id/nav_host_fragment_activity_main"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
